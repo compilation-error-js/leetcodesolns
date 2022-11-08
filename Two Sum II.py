@@ -1,5 +1,6 @@
 
-# array is already sorted so we can use two pointer
+# array is already sorted so we can use two pointer and The tests are generated such that there is exactly one solution. 
+#so use numbers[i] + numbers[j]!=target:
 def twoSum(self, numbers: List[int], target: int) -> List[int]:
     i = 0
     j = len(numbers) -1
