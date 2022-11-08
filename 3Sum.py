@@ -1,5 +1,5 @@
 #https://leetcode.com/problems/3sum/discuss/725950/Python-5-Easy-Steps-Beats-97.4-Annotated
-
+#sort and perform 2 sum on other elements
 
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         res = [];
