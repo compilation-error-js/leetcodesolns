@@ -3,6 +3,5 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i, num in enumerate(nums):
             if target - num in hashMap:
                 return [i,hashMap[target-num]];
-            else:
-                hashMap[num] = i;
+            hashMap[num] = i;
         return [-1,-1];
